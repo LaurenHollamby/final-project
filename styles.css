@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-nav {
+header {
     position: sticky; top: 0;
 }
 
