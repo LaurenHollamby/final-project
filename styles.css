@@ -2,18 +2,20 @@ body {
     background-color: #f2e9e4;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-}
-
-header {
-    position: sticky; top: 0;
+    line-height: 1.6;
+    
 }
 
 .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #4a4e69;
     color: #22223b;
-    text-align: center;
     width: 100%;
-    margin: 0;
+    padding: 0.5em;
+    flex-wrap: wrap;
+    gap: 10px;
     }
 
     .header-container ul {
@@ -38,9 +40,87 @@ header {
         text-decoration: none;
         color: #9a8c98;
         display: block;
+        
       }
       
       .header-container ul li a:hover {
         text-decoration: none;
         color: #22223b;
       } 
+
+      .weather {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: auto;
+        margin: 40px auto;
+        padding: 15px;
+        background: linear-gradient(to bottom right, #22223b, #9a8c98);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        text-align: center;
+    }
+    
+    .weather img {
+        width: 60px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .weather ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .weather li {
+        padding: 5px 0;
+        font-size: 12px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    .weather li:last-child {
+        border-bottom: none;
+    }
+
+    nav {
+        width: 100%;
+        margin-top: 20px;
+    }
+   
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color:#4a4e69;
+        color: #f2e9e4;
+    }
+
+    @media (max-width: 768px) {
+        .header-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; 
+        }
+    
+        .weather {
+            max-width: 100%;
+            padding: 10px;
+        }
+    
+        .weather img {
+            width: 50px; 
+        }
+    
+        .header-container ul {
+            flex-direction: column;
+            gap: 0.5em;
+        }
+    
+        .header-container ul li a {
+            font-size: 16px; 
+            padding: 8px 12px;
+        }
+    }
