@@ -170,3 +170,8 @@ body {
     .maintext {
         margin-left: 3em;
     }
+
+    .beachphoto {
+        text-align: center;
+        padding-top: 3em;
+    }
