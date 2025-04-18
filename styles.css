@@ -134,6 +134,13 @@ body {
         margin: auto;
     }
 
+    .mySlides {
+        display: none;
+    }
+
+    .mySlides:first-child{
+        display: block;
+    }
     
     .prev, .next {
         cursor: pointer;
