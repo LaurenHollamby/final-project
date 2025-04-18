@@ -105,7 +105,7 @@ body {
         .header-container {
             flex-direction: column;
             align-items: center;
-            gap: 5px; 
+            gap: 1px; 
         }
     
         .weather {
@@ -119,12 +119,12 @@ body {
     
         .header-container ul {
             flex-direction: column;
-            gap: 0.5em;
+            gap: 0.2em;
         }
     
         .header-container ul li a {
-            font-size: 16px; 
-            padding: 8px 12px;
+            font-size: 14px; 
+            padding: 1px 1px;
         }
     }
 
