@@ -5,3 +5,5 @@
 2. Dev Community - Akhil Arjun. One Line - Sticky Header using CSS. https://dev.to/akhilarjun/one-line-sticky-header-using-css-5gp3/. Sourced April 16, 2025.
 
 3. W3 Schools. How To Add a Favicon in HTML. https://www.w3schools.com/html/html_favicon.asp. Sourced April 18, 2025. 
+
+4. Geeks for Geeks. HTML Favicon. https://www.geeksforgeeks.org/html-favicon/. Sourced April 18, 2025.
