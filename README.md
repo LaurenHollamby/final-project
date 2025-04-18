@@ -7,3 +7,5 @@
 3. W3 Schools. How To Add a Favicon in HTML. https://www.w3schools.com/html/html_favicon.asp. Sourced April 18, 2025. 
 
 4. Geeks for Geeks. HTML Favicon. https://www.geeksforgeeks.org/html-favicon/. Sourced April 18, 2025.
+
+5. W3 Schools. How To - Slideshow. https://www.w3schools.com/howto/howto_js_slideshow.asp. Sourced April 18, 2025. 
