@@ -9,3 +9,5 @@
 4. Geeks for Geeks. HTML Favicon. https://www.geeksforgeeks.org/html-favicon/. Sourced April 18, 2025.
 
 5. W3 Schools. How To - Slideshow. https://www.w3schools.com/howto/howto_js_slideshow.asp. Sourced April 18, 2025. 
+
+6. Stack Overflow. How can I fix seeing all of my slideshow images on page loading?. https://stackoverflow.com/questions/42868287/how-can-i-fix-seeing-all-of-my-slideshow-images-on-page-loading. Sourced April 18, 2025. 
