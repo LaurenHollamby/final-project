@@ -127,3 +127,34 @@ body {
             padding: 8px 12px;
         }
     }
+
+    .slideshow {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -20px;
+        padding: 1em;
+        color: #f2e9e4;
+        transition: 0.5s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.5);
+    }
+
+    .number {
+        color:#f2e9e4;
+    }
